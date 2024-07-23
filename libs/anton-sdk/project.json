@@ -1,0 +1,9 @@
+{
+  "name": "anton-sdk",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/anton-sdk/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project anton-sdk --web",
+  "targets": {}
+}

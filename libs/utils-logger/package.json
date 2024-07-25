@@ -1,8 +1,8 @@
 {
   "name": "@anton-suite/utils-logger",
-  "version": "0.0.2-4",
+  "version": "0.0.2-5",
   "dependencies": {},
   "main": "./index.cjs",
   "module": "./index.js",
-  "private": true
+  "private": false
 }

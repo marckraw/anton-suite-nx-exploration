@@ -10,4 +10,14 @@ export class AppController {
   getData() {
     return this.appService.getData();
   }
+
+  @Get('hello')
+  getHello() {
+    return this.appService.getHello();
+  }
+
+  @Get('completion')
+  getCompletion() {
+    return this.appService.getCompletion();
+  }
 }

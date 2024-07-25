@@ -16,9 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@anton-suite/anton-sdk": ["libs/anton-sdk/src/index.ts"],
-      "@anton-suite/ui-test": ["ui-test/src/index.ts"],
-      "@anton-suite/utils-general": ["utils-general/src/index.ts"],
-      "@anton-suite/utils-logger": ["utils-logger/src/index.ts"]
+      "@anton-suite/ui-test": ["libs/ui-test/src/index.ts"],
+      "@anton-suite/utils-general": ["libs/utils-general/src/index.ts"],
+      "@anton-suite/utils-logger": ["libs/utils-logger/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

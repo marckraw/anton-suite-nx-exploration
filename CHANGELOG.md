@@ -1,3 +1,14 @@
+## 0.0.3-4 (2024-07-25)
+
+
+### 🩹 Fixes
+
+- **utils-logger:** remove unnecesary logs ([3635bf9](https://github.com/marckraw/anton-suite/commit/3635bf9))
+
+### ❤️  Thank You
+
+- Marcin Krawczyk @storyblok-components
+
 ## 0.0.3-3 (2024-07-25)
 
 This was a version bump only, there were no code changes.

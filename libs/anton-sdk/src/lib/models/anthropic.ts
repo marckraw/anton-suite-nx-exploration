@@ -1,7 +1,7 @@
 import axios from "axios";
 import type { AxiosInstance } from "axios";
 import { AIModel, Message } from "./base";
-import { isBrowser, throwErrorIfBrowser } from "../helpers/env-detection";
+import { isBrowser, throwErrorIfBrowser } from '@anton-suite/utils-general';
 
 export class AnthropicModel implements AIModel {
   private api: AxiosInstance;

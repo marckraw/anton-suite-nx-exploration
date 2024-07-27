@@ -1,4 +1,6 @@
-const baseApiUrl = 'http://localhost:8080/api'
+import { ANTON_API_URL } from '@anton-suite/api-interface';
+
+const baseApiUrl = ANTON_API_URL
 
 export async function GET(request: Request) {
 

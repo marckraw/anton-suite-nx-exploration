@@ -1,10 +1,7 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "release": {
-    "projects": ["anton-sdk", "utils-logger"],
-    "version": {
-      "conventionalCommits": true
-    }
+    "projects": ["anton-sdk", "utils-logger", "utils-general"]
   },
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],

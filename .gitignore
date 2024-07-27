@@ -46,3 +46,4 @@ Thumbs.db
 out
 
 apps/anton-api/.env
+apps/anton-playground/.env

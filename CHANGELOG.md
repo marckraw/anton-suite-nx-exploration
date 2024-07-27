@@ -1,3 +1,14 @@
+## 0.0.3-5 (2024-07-27)
+
+
+### 🚀 Features
+
+- **anton-sdk:** add stub class for openai models ([a1191d8](https://github.com/marckraw/anton-suite/commit/a1191d8))
+
+### ❤️  Thank You
+
+- Marcin Krawczyk @storyblok-components
+
 ## 0.0.3-4 (2024-07-25)
 
 

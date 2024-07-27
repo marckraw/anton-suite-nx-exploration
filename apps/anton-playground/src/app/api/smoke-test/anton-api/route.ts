@@ -9,7 +9,6 @@ export async function GET(request: Request) {
     const response = await fetch(url, {method: 'GET'})
   const json = await response.json()
 
-
   return Response.json({
     data: json
   })

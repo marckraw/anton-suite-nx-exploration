@@ -1,3 +1,5 @@
+import { Button } from '@anton-suite/ui-shadcn';
+
 export default function Index() {
   /*
    * Replace the elements below with your own.
@@ -6,10 +8,9 @@ export default function Index() {
    */
   return (
     <div>
-      <div className="wrapper">
-        <div className="container">
-          <h1>Hi!</h1>
-        </div>
+      <div className="bg-slate-600 h-screen w-full flex items-center justify-center ">
+        <h1 className="text-white text-6xl">Hello world</h1>
+        <Button>something</Button>
       </div>
     </div>
   );

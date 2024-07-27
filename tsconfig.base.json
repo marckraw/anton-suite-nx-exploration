@@ -18,8 +18,7 @@
       "@anton-suite/anton-sdk": ["libs/anton-sdk/src/index.ts"],
       "@anton-suite/api-interface": ["libs/api-interface/src/index.ts"],
       "@anton-suite/ui-shadcn": ["libs/ui-shadcn/src/index.ts"],
-      "@anton-suite/ui-test": ["libs/ui-test/src/index.ts"],
-      "@anton-suite/ui-test-lib": ["libs/ui-test-lib/src/index.ts"],
+      "@anton-suite/ui-shadcn/*": ["libs/ui-shadcn/src/*"],
       "@anton-suite/utils-general": ["libs/utils-general/src/index.ts"],
       "@anton-suite/utils-logger": ["libs/utils-logger/src/index.ts"]
     }

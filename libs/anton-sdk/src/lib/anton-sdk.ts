@@ -1,7 +1,7 @@
 import { ModelFactory, ModelType } from "./models/factory";
-import { AIModel, Message } from "./models/base";
 import { setupAxios } from "./helpers/browser";
 import { createLogger } from '@anton-suite/utils-logger';
+import type { Message, AIModel } from "./models/base";
 
 const logger = createLogger('AntonSDK');
 

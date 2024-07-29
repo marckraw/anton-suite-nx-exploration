@@ -3,6 +3,9 @@
   "release": {
     "projects": ["anton-sdk", "utils-logger", "utils-general"],
     "projectsRelationship": "independent",
+    "version": {
+      "conventionalCommits": true,
+    },
     "changelog": {
       "projectChangelogs": true
     }

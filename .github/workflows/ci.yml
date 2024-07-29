@@ -12,8 +12,6 @@ permissions:
 
 jobs:
   master:
-    env:
-      NX_BASE: master
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

@@ -5,8 +5,6 @@ import { OpenAIModel } from './openai';
 export type ModelType = "anthropic" | "openai"; // Add other types as needed
 export class ModelFactory {
   static create(type: ModelType, apiKey: string): AIModel {
-    console.log("Creating model with: ");
-    console.log({ type, apiKey });
     switch (type) {
       case "anthropic":
         return new AnthropicModel(apiKey);

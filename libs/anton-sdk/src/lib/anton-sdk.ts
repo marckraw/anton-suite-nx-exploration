@@ -13,6 +13,7 @@ export class AntonSDK {
   private model: AIModel;
   constructor(config: { type: ModelType; apiKey: string }) {
     this.model = ModelFactory.create(config.type, config.apiKey);
+    console.log("Some beta changes!")
     logger.info('AntonSDK created');
   }
   async chat(messages: Message[]): Promise<string> {

@@ -10,6 +10,7 @@
       "projectChangelogs": true
     }
   },
+  "defaultBase": "master",
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "production": [
@@ -100,6 +101,13 @@
         "linter": "eslint",
         "unitTestRunner": "vitest"
       }
+    }
+  },
+  "targetDefaults": {
+    "@nx/js:tsc": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
     }
   }
 }

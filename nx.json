@@ -10,7 +10,7 @@
       "projectChangelogs": true
     }
   },
-  "defaultBase": "master",
+  "defaultBase": "origin/master",
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "production": [

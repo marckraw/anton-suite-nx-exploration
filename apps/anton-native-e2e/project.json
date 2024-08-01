@@ -1,0 +1,9 @@
+{
+  "name": "anton-native-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/anton-native-e2e/src",
+  "implicitDependencies": ["anton-native"],
+  "// targets": "to see all targets run: nx show project anton-native-e2e --web",
+  "targets": {}
+}

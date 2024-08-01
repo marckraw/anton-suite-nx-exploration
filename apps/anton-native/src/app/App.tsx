@@ -11,10 +11,15 @@ import {
   Linking,
 } from 'react-native';
 import Svg, { G, Path } from 'react-native-svg';
+import { createLogger } from '@anton-suite/utils-logger';
+
+const logger = createLogger("Expo AntonNative")
 
 export const App = () => {
   const [whatsNextYCoord, setWhatsNextYCoord] = useState<number>(0);
   const scrollViewRef = useRef<null | ScrollView>(null);
+
+  logger.warn("Test!")
 
   return (
     <>

@@ -1,3 +1,15 @@
+## 0.2.1 (2024-08-04)
+
+
+### 🩹 Fixes
+
+- **anton-sdk:** dist folder cretion for release
+
+
+### ❤️  Thank You
+
+- Marcin Krawczyk
+
 ## 0.2.0 (2024-08-04)
 
 

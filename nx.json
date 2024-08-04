@@ -8,7 +8,7 @@
     },
     "changelog": {
       "projectChangelogs": true
-    }
+    },
   },
   "defaultBase": "origin/master",
   "namedInputs": {

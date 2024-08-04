@@ -1,0 +1,41 @@
+{
+  "name": "seeder",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "tools/seeder/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/tools/seeder",
+        "main": "tools/seeder/src/index.ts",
+        "tsConfig": "tools/seeder/tsconfig.lib.json",
+        "assets": [
+          "tools/seeder/*.md",
+          {
+            "input": "./tools/seeder/src",
+            "glob": "**/!(*.ts)",
+            "output": "./src"
+          },
+          {
+            "input": "./tools/seeder/src",
+            "glob": "**/*.d.ts",
+            "output": "./src"
+          },
+          {
+            "input": "./tools/seeder",
+            "glob": "generators.json",
+            "output": "."
+          },
+          {
+            "input": "./tools/seeder",
+            "glob": "executors.json",
+            "output": "."
+          }
+        ]
+      }
+    }
+  }
+}

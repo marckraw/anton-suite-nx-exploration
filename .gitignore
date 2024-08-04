@@ -46,6 +46,7 @@ Thumbs.db
 out
 
 apps/anton-api/.env
+apps/anton-api/src/database/db.json
 apps/anton-playground/.env
 
 # Expo

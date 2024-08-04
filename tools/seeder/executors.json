@@ -1,0 +1,9 @@
+{
+  "executors": {
+    "seed": {
+      "implementation": "./src/executors/seed/executor",
+      "schema": "./src/executors/seed/schema.json",
+      "description": "seed executor"
+    }
+  }
+}

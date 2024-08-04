@@ -5,6 +5,10 @@
   "projectType": "application",
   "tags": [],
   "targets": {
+    "seed": {
+      "executor": "@anton-suite/seeder:seed",
+      "options": {}
+    },
     "serve": {
       "executor": "@nx/js:node",
       "defaultConfiguration": "development",

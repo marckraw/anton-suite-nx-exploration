@@ -24,9 +24,6 @@ export class AppController {
 
   @Post('completion')
   createCompletion(@Body() data: CreateCompletionDto) {
-    console.log("This is data")
-    console.log(data)
-
     return this.appService.createCompletion({model: data.model, content: data.content});
   }
 }

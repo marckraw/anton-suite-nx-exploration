@@ -2,21 +2,16 @@ import axios from "axios";
 import type { AxiosInstance } from "axios";
 import { AIModel, Message } from "./base";
 import { isBrowser, throwErrorIfBrowser } from '@anton-suite/utils-general';
+import { AnthropicCompletionResponse, ChatResponse, ENDPOINTS } from '@anton-suite/api-interface';
 
 export class AnthropicModel implements AIModel {
   private api: AxiosInstance;
-  private baseUrl = "https://api.anthropic.com/v1";
+  private baseUrl = ENDPOINTS.anthropic.baseUrl;
 
   constructor(private apiKey: string) {
     if (isBrowser) {
       throwErrorIfBrowser("AnthropicModel");
     }
-    console.log("Headers from AnthropicModel:");
-    console.log({
-      "Content-Type": "application/json",
-      "x-api-key": this.apiKey,
-      "anthropic-version": "2023-06-01",
-    });
 
     this.api = axios.create({
       baseURL: this.baseUrl,
@@ -28,17 +23,18 @@ export class AnthropicModel implements AIModel {
     });
   }
 
-  async chat(messages: Message[]): Promise<any> {
+  async chat(messages: Message[]): Promise<ChatResponse> {
     try {
-      const response = await this.api.post("/messages", {
+      const response = await this.api.post<AnthropicCompletionResponse>(ENDPOINTS.anthropic.v1.completions, {
         system: "Your name is Anton. Be respectful.",
         model: "claude-3-5-sonnet-20240620",
         max_tokens: 1024,
         messages,
       });
 
+
       const role = response.data.role;
-      const content = response.data.content;
+      const content = response.data.content[0].text;
 
       return [{ role, content }];
     } catch (error) {

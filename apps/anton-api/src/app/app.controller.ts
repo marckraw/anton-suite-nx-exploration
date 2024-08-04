@@ -1,6 +1,7 @@
-import { Controller, Get } from '@nestjs/common';
+import { Body, Controller, Get, Post } from '@nestjs/common';
 
 import { AppService } from './app.service';
+import { CreateCompletionDto } from './dto/CreateCompletion.dto';
 
 @Controller()
 export class AppController {
@@ -19,5 +20,10 @@ export class AppController {
   @Get('completion')
   getCompletion() {
     return this.appService.getCompletion();
+  }
+
+  @Post('completion')
+  createCompletion(@Body() data: CreateCompletionDto) {
+    return this.appService.createCompletion({model: data.model, content: data.content});
   }
 }

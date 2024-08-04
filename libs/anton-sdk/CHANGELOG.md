@@ -1,3 +1,44 @@
+## 0.2.1 (2024-08-04)
+
+
+### 🩹 Fixes
+
+- **anton-sdk:** dist folder cretion for release
+
+
+### ❤️  Thank You
+
+- Marcin Krawczyk
+
+## 0.2.0 (2024-08-04)
+
+
+### 🚀 Features
+
+- **anton-sdk:** make dist available in package
+
+
+### ❤️  Thank You
+
+- Marcin Krawczyk
+
+## 0.1.0 (2024-08-04)
+
+
+### 🚀 Features
+
+- **anton-sdk:** implement standard completions for open ai and anthropic
+
+
+### 🩹 Fixes
+
+- **anton-sdk:** some beta changes to test
+
+
+### ❤️  Thank You
+
+- Marcin Krawczyk
+
 ## 0.0.4 (2024-07-29)
 
 

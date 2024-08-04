@@ -1,8 +1,8 @@
 {
   "name": "@anton-suite/anton-sdk",
-  "version": "0.0.4",
+  "version": "0.2.1",
   "dependencies": {},
-  "main": "./index.cjs",
-  "module": "./index.js",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.esm.js",
   "private": false
 }

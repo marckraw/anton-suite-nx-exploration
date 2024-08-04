@@ -1,3 +1,20 @@
+## 0.1.0 (2024-08-04)
+
+
+### 🚀 Features
+
+- **anton-sdk:** implement standard completions for open ai and anthropic
+
+
+### 🩹 Fixes
+
+- **anton-sdk:** some beta changes to test
+
+
+### ❤️  Thank You
+
+- Marcin Krawczyk
+
 ## 0.0.4 (2024-07-29)
 
 

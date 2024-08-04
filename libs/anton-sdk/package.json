@@ -1,6 +1,6 @@
 {
   "name": "@anton-suite/anton-sdk",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "dependencies": {},
   "main": "./index.cjs",
   "module": "./index.js",

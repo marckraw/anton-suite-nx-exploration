@@ -1,3 +1,15 @@
+## 0.2.0 (2024-08-04)
+
+
+### 🚀 Features
+
+- **anton-sdk:** make dist available in package
+
+
+### ❤️  Thank You
+
+- Marcin Krawczyk
+
 ## 0.1.0 (2024-08-04)
 
 

@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "custom-relaese": "node ./tools/scripts/release.ts",
-    "anton-api:db:seed": "npx ts-node tools/seeder/src/executors/seed/seed.ts -p tsconfig.base.json"
+    "custom-relaese": "node ./tools/scripts/release.ts"
   },
   "private": true,
   "nx": {},

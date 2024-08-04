@@ -11,9 +11,9 @@ export default async function echoExecutor(
 ): Promise<{ success: boolean }> {
   console.info(`Executing "seeder"...`);
 
-  let err = null;
-  seed().catch(error => err = error);
 
-  const success = !err;
+  await seed()
+
+  const success = true;
   return { success };
 }
